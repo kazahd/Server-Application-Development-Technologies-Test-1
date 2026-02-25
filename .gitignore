@@ -1,0 +1,47 @@
+# Виртуальное окружение
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Python кэш и байткод
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Файлы IDE (PyCharm, VS Code и т.д.)
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Логи и базы данных
+*.log
+*.db
+*.sqlite3
+
+# Файлы окружения
+.env
+*.env
+
+# Дистрибутивы и сборка
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Jupyter Notebook (если используете)
+.ipynb_checkpoints/
+*.ipynb
+
+# Временные файлы
+*.tmp
+*.temp
+*~
